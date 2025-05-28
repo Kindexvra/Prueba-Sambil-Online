@@ -1,0 +1,9 @@
+## Cómo funciona
+
+1. La aplicación obtiene la lista inicial de Pokémon desde el endpoint PokéAPI
+2. Cuando un usuario hace clic en un Pokémon, navega a una página de detalles que obtiene y muestra información completa.
+3. El sistema de paginación permite navegar por todos los Pokémon disponibles
+4. Los componentes del servidor se encargan de la generación de metadatos, mientras que los componentes del cliente gestionan los elementos interactivos.
+
+
+La aplicación utiliza Next.js App Router para la navegación entre la lista y las páginas detalladas, proporcionando una experiencia de aplicación de una sola página sin problemas, manteniendo al mismo tiempo las buenas prácticas de SEO.
